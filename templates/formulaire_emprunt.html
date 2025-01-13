@@ -5,7 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire d'enregistrement d'un nouvelle emprunt</title>
 </head>
-<body>
+<<body>
+  <div>
+        <div class="logo">
+          <img  src="static/logo.jpg">
+          <nav>
+            <ul>
+              <li class="deroulant" id="connect"><p>Menu</p>
+                <ul class="sous">
+                  <li><a href=consultation>Consultation</a></li>
+                  <li><a href=enregistrer_client>Enregistrer client</a></li>
+                  <li><a href=consultation_livre>Consultation livre</a></li>
+                  <li><a href=enregistrer_livre>Enregistrer livre</a></li>
+                  <li><a href=consultation_emprunts>Consultation emprunt</a></li>
+                  <li><a href=enregistrer_emprunt>Enregistrer emprunt</a></li>
+                  <li><a href=retour>Retour emprunt</a></li>
+                </ul>
+              </li>
+              <li class="deroulant" id="connect"><p>Connexion</p>
+                <ul class="sous">
+                  <li><a href=authentification>Authentification</a></li>
+                  <li><a href=deconnexion>Déconnexion</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     <h1>Enregistrer un nouvelle emprunt</h1>
     <form action="./enregistrer_emprunt" method="POST">
         <label for="id_client">ID du client :</label>
